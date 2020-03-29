@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a54a336-7e92-4170-a234-0beef963985c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/caltj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-03-13T102943.500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-03-13T103019.500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-03-13T103151.500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-03-13T103708.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-03-13T104132.500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-03-13T104219.302.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-siga-crm-version-1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Addres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Company.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/AddPermissionsComand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Database/Schema/Blueprint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/AbstractController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Auth/AbstractController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Auth/LogoutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Auth/MeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Auth/ProfileController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Auth/RefreshController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Auth/ResetLinkController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/CompanyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/PermissionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/RoleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AbstractController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Form/PostForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/LoginRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/PermissionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/PostRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ProfileRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/RegisterRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/RoleRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/SocialLinkRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Notifications/MyResetPassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Processors/AvatarProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/TranslationServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/SocialLink.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/AutoRoute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/AutoRouteService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/AutoRouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Common/Create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Common/Delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Common/Eloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Common/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Common/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Common/Options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Common/Select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Common/Update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/AbstractForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/AbstractFields.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/BsTo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Checkbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Cover.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Date.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FBLSTO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FCHECKBOX.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FCOVER.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FDATE.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FHIDDEN.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FID.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FIELD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FMULTICHECKBOX.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FOSELECT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FRADIO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FSELECT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FSTATUS.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FTEXT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/FTQUILEDTOR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/ROW.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/SECTION.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Facades/TABS.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Hidden.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/MultiCheckbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/ObjectSelect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/QuillEdtor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Radio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Field/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/FormServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Rows.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/Tab.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Form/TraitForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/10-02-2020.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Concerns/WithLocales.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Contracts/Intl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Country.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Currency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Facades/Country.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Facades/Currency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Facades/Language.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Facades/Number.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/IntlServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Language.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Macros/Carbon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/Number.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Intl/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Providers/MacrosServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Concerns/HasPermissions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Concerns/HasRoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Concerns/HasRolesAndPermissions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Concerns/RefreshesPermissionCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Contracts/Permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Contracts/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Exceptions/PermissionNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Facades/Shinobi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Middleware/UserHasAllRoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Middleware/UserHasAnyRole.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Middleware/UserHasPermission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Middleware/UserHasRole.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Models/Permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Models/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Shinobi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/ShinobiServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Tactics/AssignRoleTo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Tactics/GivePermissionTo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/Tactics/RevokePermissionFrom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/config/shinobi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/migrations/2021_01_20_084450_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/migrations/2021_01_20_084525_create_role_user_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/migrations/2021_01_24_080208_create_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/migrations/2021_01_24_080433_create_permission_role_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/migrations/2021_12_04_003040_add_special_role_column.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Shinobi/migrations/2022_10_17_170735_create_permission_user_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Show/TraitShow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Actions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Cell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/AbstractFiled.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/ActionField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/BltField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/CoverField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/DateField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/Facades/ACTION.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/Facades/BLT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/Facades/COVER.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/Facades/DATE.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/Facades/HTML.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/Facades/ID.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/Facades/STATUS.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/Facades/TEXT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/HtmlField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/IdField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/StatusField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Columns/TextField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Decorators/AbstractDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Decorators/Cell/AbstractCellDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Decorators/Cell/Plugin/CallableDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Decorators/Condition/ConditionFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Decorators/DataAccessInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Decorators/DecoratorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Facades/Actions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Option/Options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Param/Params.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Render.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/Table/Row.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Suports/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tenant/BelongsToTenants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tenant/Exceptions/ModelNotFoundForTenantException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tenant/Exceptions/TenantColumnUnknownException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tenant/Exceptions/TenantExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tenant/Exceptions/TenantNotSetException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tenant/Exceptions/TenantNullIdException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tenant/Facades/Tenant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tenant/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tenant/TenantManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tenant/TenantServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/TraitElement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/TraitModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/TraitTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jwt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/landlord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/AddresFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/CategoryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/CommentFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/CompanyFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/FileFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/PostFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/RoleFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/TagFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/VideoFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2012_12_13_123751_create_companies_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_12_14_023405_add_company_id_to_companies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_12_15_023053_add_company_id_to_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_12_045240_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_12_045252_create_posts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_12_045307_create_comments_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_12_045350_create_tags_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_12_045445_create_taggables_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_13_123830_create_files_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_13_125232_create_address_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_16_192210_create_activity_log_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_28_214319_create_social_links_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_20_084450_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_20_084525_create_role_user_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_24_080208_create_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_24_080433_create_permission_role_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2022_10_17_170735_create_permission_user_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/BlogSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/DefaultSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-siga-crm-version-1.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/MaterialIcons-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/MaterialIcons-Regular.ijmap.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/MaterialIcons-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/MaterialIcons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/codepoints" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/codepoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/codepoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/material-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/material-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/material-icons/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/prism-tomorrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vuesax.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/feather.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/feather.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/feather.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/feather.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/decore-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/decore-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/doc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/elements/decore-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/elements/decore-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/file-icons/doc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/file-icons/jpg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/file-icons/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/file-icons/xls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/flags/de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/flags/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/flags/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/flags/pt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/jpg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo/favicon-backup.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/1-apex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/2-stack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/3-convex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/4-materialize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/card-bg-image-demo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/card-bg-image-demo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/card-image-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/card-image-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/card-image-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/card-img-overlay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/carousel/banner-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/content-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/content-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/content-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/content-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/eCommerce/Algolia-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/eCommerce/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/faq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/forgot-password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/graphic-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/graphic-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/graphic-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/graphic-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/graphic-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/graphic-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/kb-article.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/knowledge-base-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/lock-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/login/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/login/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/login/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/login/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/maintenance-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/maintenance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/modern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/not-authorized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/register.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/reset-password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/search-result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/video-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pages/vuexy-login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portrait/small/avatar-s-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/pages/page-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/pages/page-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/pages/page-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/pages/page-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/pages/page-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/pages/page-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/pages/page-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/pages/page-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/pages/page-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/post-media/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/post-media/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/profile/user-uploads/user-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/raty/star-half-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/raty/star-on-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/vuexy-login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.auth.profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.auth.profile~admin.post.edit~admin.post.list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.dashboard.home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.full-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.post.edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.post.edit~admin.post.list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.post.index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.post.list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.post.show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.users.login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.users.logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/admin.users.profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-actions-login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-avatar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-cover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-hidden.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-multi-checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-object-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-quill-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-radio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/input-render-text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/section-render-fielads.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-avatar-rows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-avatar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-cards-show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-cols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-items-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-rows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/show-render-user-avatar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vendors~admin.main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vendors~admin.post.list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vendors~input-render-date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vendors~input-render-quill-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vendors~vue-render-table-filter-range-flat-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-avatar-show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-card-show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-default-show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-table-filter-master-detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-table-filter-range-flat-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-table-filter-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-table-filter-text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chunks/vue-render-user-show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/css/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/feather.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/feather.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/feather.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/feather.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/logo/favicon-backup.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/logo/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/logo/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/pages/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/pages/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/pages/login/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/pages/login/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/pages/login/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/pages/login/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/pages/vuexy-login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/images/portrait/small/avatar-s-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/utils/color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/utils/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/utils/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/acl/acl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/auth/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/components/FeatherIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/components/vx-auto-suggest/VxAutoSuggest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/components/vx-card/VxCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/globalComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/http/axios/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/http/interceptors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/i18n/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/i18n/i18nData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/TheFooter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/VxBreadcrumb.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/navbar/TheNavbarVertical.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/navbar/components/Bookmarks.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/navbar/components/NotificationDropDown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/navbar/components/ProfileDropDown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/navbar/components/SearchBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/navbar/navbarSearchAndPinList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/vertical-nav-menu/VerticalNavMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/vertical-nav-menu/VerticalNavMenuGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/vertical-nav-menu/VerticalNavMenuItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/vertical-nav-menu/navMenuItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/components/vx-tooltip/VxTooltip.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/full-page/FullPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/layouts/main/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/plugins/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/plugins/event-bus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/routers/categories/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/routers/companies/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/routers/meta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/routers/permissions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/routers/posts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/routers/profile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/routers/roles/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/routers/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/routers/users/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/auth/moduleAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/auth/moduleAuthActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/auth/moduleAuthGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/auth/moduleAuthMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/auth/moduleAuthState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/mutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/user-management/moduleUserManagement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/user-management/moduleUserManagementActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/user-management/moduleUserManagementGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/user-management/moduleUserManagementMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/store/user-management/moduleUserManagementState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/trans.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/utils/lazy-load-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/Page2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/AbstractForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/AbstractPages.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/AbstractShow.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/AbstractTemplate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/Error404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/Logout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/Profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/RowRenderDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/SectionRenderActions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/SectionRenderFields.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/SectionRenderPermissions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/AbstractField.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderAvatar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderCheckBox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderCover.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderDate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderHidden.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderMultiCheckbox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderObjectSelect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderPermissions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderQuillEditor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderRadio.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderSelect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/form/rows/sections/fields/InputRenderText.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/AbstractCellRender.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/CellRenderAddress.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/CellRenderCover.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/CellRenderLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/CellRenderObject.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/CellRenderRoles.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/CellRenderStatus.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/show/ShowRenderAvatar-old.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/show/ShowRenderAvatar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/show/ShowRenderCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/show/ShowRenderDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/show/ShowRenderUser.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/table/CellRenderActions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/table/MasterDetailRender.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/table/filters/AbstractFilters.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/table/filters/InputRendererDateRangeFlatpicker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/table/filters/InputRendererSelect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/src/views/pages/render/table/filters/InputRendererText.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/themeConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/pt-BR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/pt-BR/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/pt-BR/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/pt-BR/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/pt-BR/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/tailwind.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_customClasses.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_extraComponents.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_fixesVuesax.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_tailwindFix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_themes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/apps/chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/apps/email.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/apps/simple-calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/apps/todo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/featherIcon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/horizontalNavMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/horizontalNavMenuGroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/horizontalNavMenuHeader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/horizontalNavMenuItem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/verticalNavMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/verticalNavMenuGroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/vxAutoSuggest.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/vxCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/vxInputGroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/vxList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/components/vxTimeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/_awesomeSwiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/_charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/_contextMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/_datePicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/_datetimePicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/_formWizard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/_quillEditor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/_vueSelect.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/agGridStyleOverride.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/autocomplete.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/extraComponents/tree.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/layout/_layoutCommon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/layout/_layoutHorizontal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/layout/_layoutVertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/layout/_theNavbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/pages/colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/pages/dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/pages/grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/pages/loading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/pages/profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/pages/search.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/pages/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/pages/switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/rtl/_rtlFixes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/rtl/_rtlOverrides.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/themes/_themeDark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/vuexy/themes/_themeSemiDark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/punic/punic" />
+      <path value="$PROJECT_DIR$/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/lucascudo/laravel-pt-br-localization" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Z1i7Vp67PeKVqqqeHbgT73SlwR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\development-v2.0\laravel-siga-crm-version-1.0\resources\js\src\views\pages\render\table" />
+      <recent name="D:\xampp\htdocs\development-v2.0\laravel-siga-crm-version-1.0\resources\js\src\views\pages\table" />
+      <recent name="D:\xampp\htdocs\development-v2.0\laravel-siga-crm-version-1.0\storage\app\public" />
+      <recent name="D:\xampp\htdocs\development-v2.0\laravel-siga-crm-version-1.0\resources\js\src\views\pages\form\rows\sections" />
+      <recent name="D:\xampp\htdocs\development-v2.0\laravel-siga-crm-version-1.0\resources\js\src\views\pages\form\rows" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\development-v2.0\laravel-siga-crm-version-1.0\app" />
+      <recent name="D:\xampp\htdocs\development-v2.0\laravel-siga-crm-version-1.0\resources\js\src\views\pages\profile" />
+      <recent name="D:\xampp\htdocs\development-v2.0\laravel-siga-crm-version-1.0\resources\js\src\routers\profile" />
+      <recent name="D:\xampp\htdocs\development-v2.0\laravel-siga-crm-version-1.0\resources\js\src\views\pages" />
+      <recent name="D:\xampp\htdocs\development-v2.0\laravel-siga-crm-version-1.0\resources\js\src\views\pages\render\show" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost.crm.test" />
+          <option name="urlPath" value="api/v1/admin/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost.crm.test" />
+          <option name="urlPath" value="/v1/api/admin/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost.crm.test" />
+          <option name="urlPath" value="/v1/api/admin" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a54a336-7e92-4170-a234-0beef963985c" name="Default Changelist" comment="" />
+      <created>1584012834547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584012834547</updated>
+      <workItem from="1584012843308" duration="14877000" />
+      <workItem from="1584100287740" duration="17521000" />
+      <workItem from="1584290954871" duration="8929000" />
+      <workItem from="1584307108473" duration="19848000" />
+      <workItem from="1584452246934" duration="7000" />
+      <workItem from="1584452289396" duration="44777000" />
+      <workItem from="1584579796021" duration="314890000" />
+      <workItem from="1585252555087" duration="137635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

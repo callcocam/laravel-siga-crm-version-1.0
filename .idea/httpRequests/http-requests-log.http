@@ -1,0 +1,48 @@
+POST http://localhost.crm.test/api/v1/admin/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-13T104219.302.html
+
+###
+
+POST http://localhost.crm.test/api/v1/admin/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-13T104132.500.html
+
+###
+
+POST http://localhost.crm.test/v1/api/admin/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-13T103708.404.html
+
+###
+
+POST http://localhost.crm.test/v1/api/admin/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-13T103151.500.html
+
+###
+
+POST http://localhost.crm.test/v1/api/admin/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-13T103019.500.html
+
+###
+
+POST http://localhost.crm.test/v1/api/admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-13T102943.500.html
+
+###
+
